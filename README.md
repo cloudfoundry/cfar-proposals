@@ -3,7 +3,7 @@ This repository contains a summary of each application runtime proposal and thei
 
 This repository will also serve as a starting place for incoming issues that could potentially need cross cutting team coordination. If at the time when a runtime issue is discovered and it is not clear on which component should address the root cause, please use this repository.
 
-Included in this repository is a runtime proposal template that community members can leverage. 
+Included in this repository is an Application Runtime Proposal Template that community members can leverage to help provide consistency in our proposals.
 
 ### Summary information that should be included in each proposal summary file
 - Date: 
