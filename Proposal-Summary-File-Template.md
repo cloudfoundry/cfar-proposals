@@ -1,8 +1,8 @@
-- **Date:** 
+- **Date:** MM/DD/YYYY
 - **Owner:** 
 - **Work-Group:** 
 - **Proposal Name:** 
 - **TL;DR Summary:** 
 - **Status:** WIP | In Progress | Approved | Obsolete 
-- **Last Call for Review Date:** 
+- **Last Call for Review Date:** MM/DD/YYYY
 - **Proposal Link:** [URL](https://docs.google.com/abc)
