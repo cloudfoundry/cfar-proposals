@@ -1,0 +1,8 @@
+- **Date:** 
+- **Owner:** 
+- **Work-Group:** 
+- **Proposal Name:** 
+- **TL;DR Summary:** 
+- **Status:** WIP | In Progress | Approved | Obsolete 
+- **Last Call for Review Date:** 
+- **Proposal Link:** [URL](https://docs.google.com/abc)
