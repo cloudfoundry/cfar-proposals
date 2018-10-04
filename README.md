@@ -13,5 +13,6 @@ Included in this repository is a runtime proposal template that community member
 - Work-Group: 
 - Proposal Name: 
 - TL;DR Summary: 
-- Status: In Review | Approved | Obsolete
+- Status: WIP | In Review | Approved | Obsolete
 - Last Call for Review Date:
+- Self Link:
