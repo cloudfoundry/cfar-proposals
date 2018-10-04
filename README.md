@@ -5,7 +5,7 @@ This repository will also serve as a starting place for incoming issues that cou
 
 Included in this repository is an Application Runtime Proposal Template that community members can leverage to help provide consistency in our proposals.
 
-### Summary information that should be included in each proposal summary file
+### Summary information included in each proposal summary file
 - Date: 
 - Owner:
 - Work-Group: 
