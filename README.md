@@ -1,5 +1,5 @@
 # Application Runtime Proposals Repository
-This repository contains a summary of each application runtime proposal and their current status. Proposal authors should copy the [proposal summary template](https://github.com/chenl23/cfar-proposals/blob/master/Proposal-summary-template.md) and create a new entry for each incoming proposal. As the state of the proposals change, authors should update their status to reflect the most up to date progress. 
+This repository contains a summary of each application runtime proposal and their current status. Proposal authors should copy the [proposal summary template](https://github.com/chenl23/cfar-proposals/blob/master/Proposal-summary-template.md) and create a new entry for each incoming proposal under the corresponding year folder. As the state of the proposals change, authors should update their status to reflect the most up to date progress. 
 
 This repository will also serve as a starting place for incoming issues that could potentially need cross cutting team coordination. If at the time when a runtime issue is discovered and it is not clear on which component should address the root cause, please use this repository.
 
