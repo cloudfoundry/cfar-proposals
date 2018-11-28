@@ -11,6 +11,6 @@ Included in this repository is an Application Runtime Proposal Template that com
 - Work-Group: 
 - Proposal Name: 
 - TL;DR Summary: 
-- Status: WIP | In Review | Approved | Obsolete
+- Status: Draft | In Review | Planned | In Progress | Complete | Obsolete
 - Last Call for Review Date:
 - Self Link:
