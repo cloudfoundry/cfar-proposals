@@ -1,4 +1,4 @@
-**List of Proposals 2018**
+**List of 2018 Proposals**
 - Eirini in 2019 CFAR certification requirements
 - Proposal: Sidecars for Cloud Foundry Application Runtime
 - Cloud Foundry Integration with Istio Pilot and Envoy
@@ -27,7 +27,7 @@
 - Proposal for Server Side App Manifest
 - Proposal for breaking changes in Diego v2.0
 ***
-TEMPLATE: Please copy and use it for new entries.
+:arrow_down: TEMPLATE: Please copy and use it for new entries :arrow_down:
 ***
 - **Date:** 
 - **Owner:** 
