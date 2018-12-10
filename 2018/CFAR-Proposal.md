@@ -1,8 +1,9 @@
 **List of Proposals 2018**
-1. Eirini in 2019 CFAR certification requirements
-2. Pluggable Orchestration with Kube backend (“Cube” / “Eirini”)
-3. 
+- Eirini in 2019 CFAR certification requirements
+- Pluggable Orchestration with Kube backend (“Cube” / “Eirini”)
+- 
 ***
+TEMPLATE: Please copy and use it for new entries.
 ***
 - **Date:** 
 - **Owner:** 
@@ -17,9 +18,8 @@
 - **Date:** 11/16/2018
 - **Owner:** Troy Topnik
 - **Work-Group:** Erini
-- **Proposal Name:** 
-- **TL;DR Summary:** So I’d like to propose including Eirini as an alternative CFAR scheduler, assuming it will be passing the relevant tests by the time of certification.
-My suggestion is a one line change to the Application Runtime section of the certification requirements:
+- **Proposal Name:** Eirini in 2019 CFAR certification requirements
+- **TL;DR Summary:** Eirini is coming, and a number of us are keen to see Kubernetes-native app scheduling in CFAR distributions as soon as possible. Ideally we would like these distributions to be certified by the CF Foundation when they are released. We recognize that Eirini is still in incubation, but it’s getting closer to feature parity with Diego every day. The Cloud Foundry acceptance tests (CATs) are almost all passing, and are expected to be fully passing by the time the certification requirements are released, but the 2019 requirements are currently being drafted.So I’d like to propose including Eirini as an alternative CFAR scheduler, assuming it will be passing the relevant tests by the time of certification. My suggestion is a one line change to the Application Runtime section of the certification requirements:
 The Application Runtime portion of a certified offering must include the following components:
 [Cloud Controller](https://github.com/cloudfoundry/capi-release/)
 [Router](https://github.com/cloudfoundry-incubator/routing-release/)
@@ -29,16 +29,7 @@ The Application Runtime portion of a certified offering must include the followi
 - **Last Call for Review Date:** 
 - **Proposal Link:** [URL](https://lists.cloudfoundry.org/g/cf-dev/topic/28180939?p=,,,20,0,0,0::Created,,,20,2,0,28180939,d=5,ct=1&d=5&ct=1)
 ***
-- **Date:** 03/23/2018
-- **Owner:** Julz Friedman
-- **Work-Group:** Erini
-- **Proposal Name:** Pluggable Orchestration with Kube backend (“Cube” / “Eirini”)
-- **TL;DR Summary:**  We propose an incubator project to add the ability for CF to use Kubernetes as a scheduler, alongside Diego.
-- **Status:** Draft | In Review | Planned | In Progress | Complete | Obsolete
-- **Last Call for Review Date:** In Progress
-- **Proposal Link:** [URL](https://docs.google.com/document/d/1qs6UQQDWMkfOpY19XqS3CfvI00jCns876TjplJ6E95s/edit#heading=h.poicq8c1xfqn)
-***
-- **Date:** 11/0/1/2018
+- **Date:** 11/01/2018
 - **Owner:** Stephen Levine
 - **Work-Group:** Buildpack 
 - **Proposal Name:** Proposal: Sidecars for Cloud Foundry Application Runtime
@@ -64,15 +55,6 @@ The Application Runtime portion of a certified offering must include the followi
 - **Status:** Complete 
 - **Last Call for Review Date:** 
 - **Proposal Link:** [URL](https://docs.google.com/document/d/1LMr2Ik5T_3lY99I6CBE5_1-hRRixBlDPPqKxh-rARR0/edit#)
-***
-- **Date:** 09/06/2018
-- **Owner:** Josh Collins
-- **Work-Group:** Release Integration
-- **Proposal Name:** Proposed Scope for CF-Deployment 5.0
-- **TL;DR Summary:** Scope: 1)Make Windows 2016 cells default 2)Remove Consul 3)Make Xenial Default 4)Remove log-cache group-reader job 5)Remove all empty/symlinked ops files that were deprecated in previous releases
-- **Status:** Complete 
-- **Last Call for Review Date:** 
-- **Proposal Link:** [URL](https://docs.google.com/document/d/1M674BR1gHeKJKJ-lctG-jGDe4oYtRaM0ZGeIfQhB6MQ/edit)
 ***
 - **Date:** 10/05/2018
 - **Owner:**  Christopher Brown
@@ -111,6 +93,15 @@ We’re proposing some changes for the upcoming CF CLI v7 regarding the --no-sta
 - **Last Call for Review Date:** 
 - **Proposal Link:** [URL](https://lists.cloudfoundry.org/g/cf-dev/topic/25835274?p=,,,20,0,0,0::Created,,,20,2,40,25835274,d=5,ct=1&d=5&ct=1)
 ***
+- **Date:** 09/06/2018
+- **Owner:** Josh Collins
+- **Work-Group:** Release Integration
+- **Proposal Name:** Proposed Scope for CF-Deployment 5.0
+- **TL;DR Summary:** Scope: 1)Make Windows 2016 cells default 2)Remove Consul 3)Make Xenial Default 4)Remove log-cache group-reader job 5)Remove all empty/symlinked ops files that were deprecated in previous releases
+- **Status:** Complete 
+- **Last Call for Review Date:** 
+- **Proposal Link:** [URL](https://docs.google.com/document/d/1M674BR1gHeKJKJ-lctG-jGDe4oYtRaM0ZGeIfQhB6MQ/edit)
+***
 - **Date:** 08/17/2018
 - **Owner:**  Josh Collins
 - **Work-Group:** Release Integration 
@@ -119,15 +110,6 @@ We’re proposing some changes for the upcoming CF CLI v7 regarding the --no-sta
 - **Status:** Complete 
 - **Last Call for Review Date:** 
 - **Proposal Link:** [URL](https://docs.google.com/document/d/1C8DYPaohFHN8pg1QHQQtgqaZqoGXATSf3ErDaML4FPQ/edit?usp=sharing )
-***
-- **Date:** 07/25/2018
-- **Owner:** Eric Malm
-- **Work-Group:** Diego 
-- **Proposal Name:** Proposal: Improving Security for HTTP Ingress to CFAR Application Containers
-- **TL;DR Summary:**  Building on the features and technologies the CF Diego and Routing teams have introduced into the CF App Runtime to improve application routing consistency, security, and stability (https://lists.cloudfoundry.org/g/cf-dev/topic/11900235#7744, which we have often called "route integrity"), the Diego team intends to make it possible for platform operators to opt into improving the security of how traffic ingresses into application containers. In particular, operators would be able to opt into ensuring that only CF system components, or even only the gorouter HTTP routers, would be able to connect to application containers from the infrastructure-provided network.
-- **Status:**  In Progress | Complete | Obsolete
-- **Last Call for Review Date:** 
-- **Proposal Link:** [URL](https://docs.google.com/document/d/1DjapCLbdgGBmpuWt2P2PV-qm_vUwI_9IZHae9TbN_Pw/edit)
 ***
 - **Date:** 08/03/2018
 - **Owner:** Matthias Winzeler
@@ -140,6 +122,15 @@ Currently, Diego only supports one credhub endpoint for the Runtime Credhub (whi
 - **Status:** Draft | In Review | Planned | In Progress | Complete | Obsolete
 - **Last Call for Review Date:** 
 - **Proposal Link:** [URL](https://lists.cloudfoundry.org/g/cf-dev/topic/24161998?p=,,,20,0,0,0::Created,,,20,2,80,24161998,d=5,ct=1&d=5&ct=1)
+***
+- **Date:** 07/25/2018
+- **Owner:** Eric Malm
+- **Work-Group:** Diego 
+- **Proposal Name:** Proposal: Improving Security for HTTP Ingress to CFAR Application Containers
+- **TL;DR Summary:**  Building on the features and technologies the CF Diego and Routing teams have introduced into the CF App Runtime to improve application routing consistency, security, and stability (https://lists.cloudfoundry.org/g/cf-dev/topic/11900235#7744, which we have often called "route integrity"), the Diego team intends to make it possible for platform operators to opt into improving the security of how traffic ingresses into application containers. In particular, operators would be able to opt into ensuring that only CF system components, or even only the gorouter HTTP routers, would be able to connect to application containers from the infrastructure-provided network.
+- **Status:**  In Progress | Complete | Obsolete
+- **Last Call for Review Date:** 
+- **Proposal Link:** [URL](https://docs.google.com/document/d/1DjapCLbdgGBmpuWt2P2PV-qm_vUwI_9IZHae9TbN_Pw/edit)
 ***
 - **Date:** 07/13/2018
 - **Owner:**  Shubha Anjur Tupil
@@ -168,7 +159,7 @@ Currently, Diego only supports one credhub endpoint for the Runtime Credhub (whi
 - **Last Call for Review Date:** 
 - **Proposal Link:** [URL](https://lists.cloudfoundry.org/g/cf-dev/topic/22015965?p=,,,20,0,0,0::Created,,,20,2,140,22015965,d=5,ct=1&d=5&ct=1)
 ***
-- **Date:** 043/04/2018
+- **Date:** 04/04/2018
 - **Owner:** Zach Brown
 - **Work-Group:** Services API
 - **Proposal Name:** Proposal for incubation in the Extensions PMC: MS-SQL Service Broker
@@ -176,6 +167,15 @@ Currently, Diego only supports one credhub endpoint for the Runtime Credhub (whi
 - **Status:** Planned | In Progress | Complete | Obsolete
 - **Last Call for Review Date:** 
 - **Proposal Link:** [URL](https://docs.google.com/document/d/1cUjY2fqdHn8GPjqp4jY-wjGlPIhZMYj4Qv7zeGf_6T8/edit#heading=h.j5ilo486aynh)
+***
+- **Date:** 03/23/2018
+- **Owner:** Julz Friedman
+- **Work-Group:** Erini
+- **Proposal Name:** Pluggable Orchestration with Kube backend (“Cube” / “Eirini”)
+- **TL;DR Summary:**  We propose an incubator project to add the ability for CF to use Kubernetes as a scheduler, alongside Diego.
+- **Status:** Draft | In Review | Planned | In Progress | Complete | Obsolete
+- **Last Call for Review Date:** In Progress
+- **Proposal Link:** [URL](https://docs.google.com/document/d/1qs6UQQDWMkfOpY19XqS3CfvI00jCns876TjplJ6E95s/edit#heading=h.poicq8c1xfqn)
 ***
 - **Date:** 03/19/2018
 - **Owner:** Adam Hevenor
@@ -186,15 +186,6 @@ Currently, Diego only supports one credhub endpoint for the Runtime Credhub (whi
 - **Last Call for Review Date:** 
 - **Proposal Link:** [URL](https://lists.cloudfoundry.org/g/cf-dev/topic/15605285?p=,,,20,0,0,0::Created,,,20,2,200,15605285,d=5,ct=1&d=5&ct=1)
 ***
-- **Date:** 03/12/2018
-- **Owner:** Shubha Anjur Tupil
-- **Work-Group:** Routing
-- **Proposal Name:** Feedback request: Disable logging Client IP’s in the Gorouter logs for compliance with the EU General Data Protection Regulation (GDPR)
-- **TL;DR Summary:**  In lieu of The EU General Data Protection Regulation (GDPR), the routing team is investigating adding manifest properties to allow an operator to disable logging the client IP's in the X-Forwarded-For header in the access and error logs for Gorouter. Enforcement of The EU General Data Protection Regulation (GDPR) (https://www.eugdpr.org/) begins May 28th and imposes steep fines. This law says that companies will be fined if they are capturing PII. The Gorouter currently captures Client IP addresses that are included in that definition. We are exploring manifest properties to allow operators to disable logging the originating client IP.
-- **Status:** In Progress | Complete | Obsolete
-- **Last Call for Review Date:** 
-- **Proposal Link:** [URL](https://lists.cloudfoundry.org/g/cf-dev/topic/14512703?p=,,,20,0,0,0::Created,,,20,2,220,14512703,d=5,ct=1&d=5&ct=1)
-***
 - **Date:** 03/13/2018
 - **Owner:** Adam Hevenor
 - **Work-Group:** Loggregator
@@ -203,6 +194,15 @@ Currently, Diego only supports one credhub endpoint for the Runtime Credhub (whi
 - **Status:** In Progress | Complete | Obsolete
 - **Last Call for Review Date:** 
 - **Proposal Link:** [URL](https://docs.google.com/document/d/1w_j6pf9v-lobXEfUmOYWKTyCtRLmKsOayVRfS2kZQPs/edit#heading=h.h4kd8w9hjl6t)
+***
+- **Date:** 03/12/2018
+- **Owner:** Shubha Anjur Tupil
+- **Work-Group:** Routing
+- **Proposal Name:** Feedback request: Disable logging Client IP’s in the Gorouter logs for compliance with the EU General Data Protection Regulation (GDPR)
+- **TL;DR Summary:**  In lieu of The EU General Data Protection Regulation (GDPR), the routing team is investigating adding manifest properties to allow an operator to disable logging the client IP's in the X-Forwarded-For header in the access and error logs for Gorouter. Enforcement of The EU General Data Protection Regulation (GDPR) (https://www.eugdpr.org/) begins May 28th and imposes steep fines. This law says that companies will be fined if they are capturing PII. The Gorouter currently captures Client IP addresses that are included in that definition. We are exploring manifest properties to allow operators to disable logging the originating client IP.
+- **Status:** In Progress | Complete | Obsolete
+- **Last Call for Review Date:** 
+- **Proposal Link:** [URL](https://lists.cloudfoundry.org/g/cf-dev/topic/14512703?p=,,,20,0,0,0::Created,,,20,2,220,14512703,d=5,ct=1&d=5&ct=1)
 ***
 - **Date:** 03/08/2018
 - **Owner:** Matt Cholick
@@ -222,6 +222,16 @@ Currently, Diego only supports one credhub endpoint for the Runtime Credhub (whi
 - **Last Call for Review Date:** 
 - **Proposal Link:** [URL](https://docs.google.com/document/d/1D3GK2IUGQz_3fCuuLPNWz7Yb8eiKKZ9k-78LwNHWtuU/edit#)
 ***
+- **Date:** 02/30/2018
+- **Owner:**  Julz Friedman
+- **Work-Group:** Garden
+- **Proposal Name:** Proposal: Garden support for Containerd
+- **TL;DR Summary:** Garden-runc [0] should support delegating to containerd [1] to run containers.
+[0]: https://github.com/cloudfoundry/garden-runc-release
+[1]: https://github.com/containerd/containerd
+- **Status:** Complete 
+- **Last Call for Review Date:** 
+- **Proposal Link:** [URL](https://docs.google.com/document/d/11hFXFPAz4yHtphYQArmhAqw5nD4KgMVmXRWIrE2D7Ko/edit?usp=sharing)
 - **Date:** 02/13/2018
 - **Owner:** Michael Rhodes 
 - **Work-Group:** Services API
@@ -239,17 +249,6 @@ Currently, Diego only supports one credhub endpoint for the Runtime Credhub (whi
 - **Status:**  In Progress | Complete | Obsolete
 - **Last Call for Review Date:** 
 - **Proposal Link:** [URL](https://lists.cloudfoundry.org/g/cf-dev/topic/10766104?p=,,,20,0,0,0::Created,,,20,2,260,10766104,d=5,ct=1&d=5&ct=1)
-***
-- **Date:** 02/30/2018
-- **Owner:**  Julz Friedman
-- **Work-Group:** Garden
-- **Proposal Name:** Proposal: Garden support for Containerd
-- **TL;DR Summary:** Garden-runc [0] should support delegating to containerd [1] to run containers.
-[0]: https://github.com/cloudfoundry/garden-runc-release
-[1]: https://github.com/containerd/containerd
-- **Status:** Complete 
-- **Last Call for Review Date:** 
-- **Proposal Link:** [URL](https://docs.google.com/document/d/11hFXFPAz4yHtphYQArmhAqw5nD4KgMVmXRWIrE2D7Ko/edit?usp=sharing)
 ***
 - **Date:** 01/11/2018
 - **Owner:** Dies Koper
