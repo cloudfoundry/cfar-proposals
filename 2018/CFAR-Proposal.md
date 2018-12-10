@@ -1,7 +1,31 @@
 **List of Proposals 2018**
 - Eirini in 2019 CFAR certification requirements
+- Proposal: Sidecars for Cloud Foundry Application Runtime
+- Cloud Foundry Integration with Istio Pilot and Envoy
+- Proposed Scope for CF-Deployment 6.0
+- Handing over the cf-resource and autopilot projects
+- Propose removing --no-start from cf push in CLI v7
+- Agent-based Scalable Syslog Draining
+- Ephemeral Disk Support for Windows 1709 and Windows 1803 Stemcells
+- Proposed Scope for CF-Deployment 5.0
+- Proposed Scope for CF-Deployment v4.0
+- Add support for multiple Credhubs to CF/Diego
+- Improving Security for HTTP Ingress to CFAR Application Containers
+- Proposal for weighted routing user experience in Cloud Foundry
+- Let's fix* CPU Sharing and Metrics in CF
+- Proposed changes to capi-release nfs_server.share_path
+- Proposal for incubation in the Extensions PMC: MS-SQL Service Broker
 - Pluggable Orchestration with Kube backend (“Cube” / “Eirini”)
-- 
+- A New Packaging Approach - CLI Tools Pushing Apps and the Story about the #loggregator “space drain” experiment
+- Isolated Loggregator Components
+- Disable logging Client IP’s in the Gorouter logs for compliance with the EU General Data Protection Regulation (GDPR)
+- Automating Security Groups and Brokered Services
+- Readability Improvements to Diego Component Logs
+- Garden support for Containerd
+- Metric Drains - A New Way for App Developers to Monitor their Containers
+- Value Substitution in App Manifest Proposal
+- Proposal for Server Side App Manifest
+- Proposal for breaking changes in Diego v2.0
 ***
 TEMPLATE: Please copy and use it for new entries.
 ***
@@ -105,7 +129,7 @@ We’re proposing some changes for the upcoming CF CLI v7 regarding the --no-sta
 - **Date:** 08/17/2018
 - **Owner:**  Josh Collins
 - **Work-Group:** Release Integration 
-- **Proposal Name:** REQUEST for REVIEW - Proposed Scope for CF-Deployment v4.0
+- **Proposal Name:** Proposed Scope for CF-Deployment v4.0
 - **TL;DR Summary:** Based on the feedback generated during the cf-deployment v3.0 retro and observations of the impact of 3.0 on the CF development community CI's, I'd like to share and gather feedback on proposed scope of the next major release of cf-deployment. 
 - **Status:** Complete 
 - **Last Call for Review Date:** 
@@ -126,7 +150,7 @@ Currently, Diego only supports one credhub endpoint for the Runtime Credhub (whi
 - **Date:** 07/25/2018
 - **Owner:** Eric Malm
 - **Work-Group:** Diego 
-- **Proposal Name:** Proposal: Improving Security for HTTP Ingress to CFAR Application Containers
+- **Proposal Name:** Improving Security for HTTP Ingress to CFAR Application Containers
 - **TL;DR Summary:**  Building on the features and technologies the CF Diego and Routing teams have introduced into the CF App Runtime to improve application routing consistency, security, and stability (https://lists.cloudfoundry.org/g/cf-dev/topic/11900235#7744, which we have often called "route integrity"), the Diego team intends to make it possible for platform operators to opt into improving the security of how traffic ingresses into application containers. In particular, operators would be able to opt into ensuring that only CF system components, or even only the gorouter HTTP routers, would be able to connect to application containers from the infrastructure-provided network.
 - **Status:**  In Progress | Complete | Obsolete
 - **Last Call for Review Date:** 
@@ -135,7 +159,7 @@ Currently, Diego only supports one credhub endpoint for the Runtime Credhub (whi
 - **Date:** 07/13/2018
 - **Owner:**  Shubha Anjur Tupil
 - **Work-Group:** Routing
-- **Proposal Name:** roposal for weighted routing user experience in Cloud Foundry
+- **Proposal Name:** Proposal for weighted routing user experience in Cloud Foundry
 - **TL;DR Summary:**  The CF Routing team has received feedback from many users that support for weighted routing would make it easier to accomplish their goals. This feature will be the first to be delivered using istio-release as the new routing subsystem for CF. The CF Routing team is eager to have this subsystem adopted in order to get feedback from operators. All future routing features, for north-south as well as east-west, will be delivered using istio-release. For details on our plans for Istio in CF, see Cloud Foundry Integration with Istio Pilot and Envoy.
 - **Status:** In Progress | Complete | Obsolete
 - **Last Call for Review Date:** 
