@@ -1,4 +1,5 @@
 **List of 2018 Proposals**
+- Proposed Scope for CF-Deployment 7.0
 - Eirini in 2019 CFAR certification requirements
 - Proposal: Sidecars for Cloud Foundry Application Runtime
 - Cloud Foundry Integration with Istio Pilot and Envoy
@@ -38,6 +39,15 @@
 - **Last Call for Review Date:** 
 - **Proposal Link:** 
 ***
+***
+- **Date:** 12/12/2018
+- **Owner:** Josh Collins
+- **Work-Group:** Release Integration
+- **Proposal Name:** Proposed Scope for CF-Deployment 7.0
+- **TL;DR Summary:** Scope: Make PXC default, Default to cflinuxfs3, Deprecate the uaa/users/bosh user, Use 10 reservable TCP ports instead of 100, Add instance group dns names to loggregator certs, Remove all empty/symlinked ops files that were deprecated in previous releases 
+- **Status:** Draft | In Review
+- **Last Call for Review Date:** 01/02/2019
+- **Proposal Link:** [URL] (https://docs.google.com/document/d/1KzO1cpT8L7UrodlKHastu-pok1_FGwHBZQieiw-fxAw/edit#heading=h.86a6s4nympk9)
 ***
 - **Date:** 11/16/2018
 - **Owner:** Troy Topnik
