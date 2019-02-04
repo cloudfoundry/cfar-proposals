@@ -1,5 +1,6 @@
 **List of 2019 Proposals**
 1. CC API v3 Proposals
+2. Deprecation /containermetrics endpoint on the loggregator_trafficcontroller
 
 ***
 :arrow_down: TEMPLATE: Please copy and use it for new entries :arrow_down:
@@ -23,4 +24,13 @@
 - **Last Call for Review Date:** 
 - **Proposal Link:** [URL] (https://docs.google.com/document/d/1g48YPBfwXT8kNrJYroBNkhlCtROe53INEEzvhQaAUOI/edit)
 ***
+***
+- **Date:** 02/04/2019
+- **Owner:**  Johannes Tuchscherer
+- **Work-Group:** Loggregator 
+- **Proposal Name:** Deprecation /containermetrics endpoint on the loggregator_trafficcontroller 
+- **TL;DR Summary:** The loggregator team would like to remove the /containermetrics endpoint on the loggregator_trafficcontroller 
+- **Status:** In Review 
+- **Last Call for Review Date:** 
+- **Proposal Link:** [URL] (https://lists.cloudfoundry.org/g/cf-dev/message/8481)
 ***
