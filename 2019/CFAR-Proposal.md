@@ -21,7 +21,7 @@
 - **Date:** 01/24/2019
 - **Owner:** Abby Chau
 - **Work-Group:** CLI
-- **Proposal Name:** [CC API](#CC API v3 Proposals)
+- **Proposal Name:** [CC API v3 Proposals](#Here_1)
 - **TL;DR Summary:** V3 API proposals for Audit Events, Domains, Environment Variable Groups, Quotas, Routes, Security Groups, Usage Events, Users + Roles
 - **Status:** In Review 
 - **Last Call for Review Date:** 
