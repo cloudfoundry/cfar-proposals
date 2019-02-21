@@ -12,5 +12,8 @@ We recommend as a best practice to add a target milestone. Please see demo issue
 * Update with content
 * As proposal cycles through different status, please update issue to reflect accurate status
 * Close issue with relevant information (github link or reason for obsolete)
+* Check CFAR Proposal Kanban under Projects tab to see status of all proposals
+
+
 
 
