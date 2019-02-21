@@ -10,7 +10,7 @@ We recommend as a best practice to add a target milestone. Please see demo issue
 * Open an issue for a new proposal
 * Select custom template "Runtime proposal"
 * Update with content
-* As proposal cycles through different status, please update issue.
+* As proposal cycles through different status, please update issue to reflect accurate status
 * Close issue with relevant information (github link or reason for obsolete)
 
 
