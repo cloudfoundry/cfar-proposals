@@ -11,6 +11,6 @@ We recommend as a best practice to add a target milestone. Please see demo issue
 * Select custom template "Runtime proposal"
 * Update with content
 * As proposal cycles through different status, please update issue.
-* Close issue with relevant information (github link or reason for obsolete
+* Close issue with relevant information (github link or reason for obsolete)
 
 
