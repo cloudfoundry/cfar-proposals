@@ -10,9 +10,9 @@ We recommend as a best practice to add a target milestone. Please see demo issue
 * Open an issue for a new proposal
 * Select custom template "Runtime proposal"
 * Update with content
-* As proposal cycles through different status, please update issue to reflect accurate status
+* As proposal cycles through the different possible phases (Draft | In Review | Planned | In Progress | Complete | Obsolete), please update issue to accurately reflect the current status. 
 * Close issue with relevant information (github link or reason for obsolete)
-* Check CFAR Proposal Kanban under Projects tab to see status of all proposals
+* Check [CFAR Proposal Kanban](https://github.com/chenl23/cfar-proposals/projects/1) under Projects tab to see status of all proposals
 
 
 
