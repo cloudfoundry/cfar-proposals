@@ -7,18 +7,12 @@ assignees: ''
 
 ---
 
-###Last Call for Review
+### Last Call for Review
 
-###Proposal Name
+### Proposal Name
 
-###TL;DR Summary
+### TL;DR Summary
 
-###Proposal URL
+### Proposal URL
 
-###Proposal Status
--[ ] Draft
--[ ] In Review
--[ ] Planned
--[ ] In Progress
--[ ] Complete
--[ ] Obsolete
+### Point of Contact
