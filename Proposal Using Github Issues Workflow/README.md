@@ -1,3 +1,5 @@
+***Proposal***
+
 This is a proposal to use GitHub Issues to help track proposal status. We intend to use  labels to help with filtering of proposals. Each issue will contain a default parent label in addition to a status and team label.
 
 * **Parent label:** cfar-proposal (all issues have by it default from issue template)
@@ -11,6 +13,7 @@ This is a proposal to use GitHub Issues to help track proposal status. We intend
 
 Please open one issue per proposal. Issue should only be closed when **implementation is complete** or when proposal has been deemed **obsolete**. We recommend as a best practice to add a target milestone. Please see [sample GitHub issue](https://github.com/chenl23/cfar-proposals/issues) for details. For status of all proposals, please [CFAR Project Board](https://github.com/chenl23/cfar-proposals/projects/1).
 
+---
 **Workflow**
 * Open an issue for a new proposal
 * Select custom template "Runtime proposal"
