@@ -1,5 +1,4 @@
-***Proposal***
-
+**Proposal**
 This is a proposal to use GitHub Issues to help track proposal status. We intend to use  labels to help with filtering of proposals. Each issue will contain a default parent label in addition to a status and team label.
 
 * **Parent label:** cfar-proposal (all issues have by it default from issue template)
