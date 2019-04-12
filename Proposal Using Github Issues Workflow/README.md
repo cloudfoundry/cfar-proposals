@@ -16,7 +16,7 @@ Please open one issue per proposal. Issue should only be closed when **implement
 * Select custom template "Runtime proposal"
   * Update issue with content
   * Add status label
-  * Add applicable team label
+  * Add labels for teams which have a dependency on the proposal
 * Select Projects “Done in CFAR Proposals”. This is important since we need to be in the right project in order for the CFAR Project Board to be automatically pick up issues created.
 * As proposal cycles through the different possible phases, please update status label to accurately reflect the current progress
 
