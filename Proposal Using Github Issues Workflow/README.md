@@ -20,7 +20,8 @@ Please open one issue per proposal and make sure that issue is in **CFAR Proposa
   * Update issue with content
   * Add status label
   * Add labels for teams which have a dependency on the proposal
-* **Select Projects “Done in CFAR Proposals”. This is IMPORTANT since we need to be in the right project in order for the CFAR Project Board to automatically pick up issues created.**
+  * **Select Projects “CFAR Proposals”. This is IMPORTANT since we need to be in the right project in order for the CFAR Project Board to automatically pick up issues created.**
+  * Create a milestone. Without it, your propsoal would not be moved automatically to 'In Progress' column on the CFAR Project Board
 * As proposal cycles through the different possible phases, please update status label to accurately reflect the current progress
 
 
