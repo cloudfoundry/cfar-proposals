@@ -11,7 +11,7 @@ This is a repository for Cloud Foundry Application Runtime proposals. The purpos
   * obsolete - Proposal abandoned
 * **Team label:** cli, capi, services api, bits-service, uaa, perm, garden, eirini, garden-windows, diego, persi, networking, haproxy, loggregator, infra, relint, postgres, mysql (to be added by proposal author at the time of issue creation)
 
-Please open one issue per proposal and make sure that issue is in **CFAR Proposal Project**. Issue should only be closed when **implementation is complete** or when proposal has been deemed **obsolete**. Please see [sample GitHub issue](https://github.com/chenl23/cfar-proposals/issues) for details. For status of all proposals, please access [CFAR Project Board](https://github.com/chenl23/cfar-proposals/projects/1).
+Please open one issue per proposal and make sure that issue is in **CFAR Proposal Project**. Issue should only be closed when **implementation is complete** or when proposal has been deemed **obsolete**. For status of all proposals and sample proposal, please see [CFAR Project Board](https://github.com/chenl23/cfar-proposals/projects/1).
 
 ---
 **Workflow**
