@@ -1,8 +1,0 @@
-- **Date:** 07/25/2018
-- **Owner:** Eric Malm
-- **Work-Group:** Diego
-- **Proposal Name:** Improving Security for HTTP Ingress to CFAR Application Containers
-- **TL;DR Summary:** Building on the features and technologies the CF Diego and Routing teams have introduced into the CF App Runtime to improve application routing consistency, security, and stability (https://lists.cloudfoundry.org/g/cf-dev/topic/11900235#7744, which we have often called "route integrity"), the Diego team intends to make it possible for platform operators to opt into improving the security of how traffic ingresses into application containers. In particular, operators would be able to opt into ensuring that only CF system components, or even only the gorouter HTTP routers, would be able to connect to application containers from the infrastructure-provided network.
-- **Status:** Approved 
-- **Last Call for Review Date:** 09/25/2018
-- **Proposal Link:** [URL](https://docs.google.com/document/d/1DjapCLbdgGBmpuWt2P2PV-qm_vUwI_9IZHae9TbN_Pw/edit)
