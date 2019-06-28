@@ -23,5 +23,5 @@ Please open one issue per proposal and make sure that issue is in **CFAR Proposa
   
 **IMPORTANT**
   * **Select Projects “CFAR Proposals”. We need to be in the right project in order for the CFAR Project Board to automatically pick up issues created.**
-  * **Newly opened issue will be in "New Proposal" cloumn in CFAR Project Board. When your issue is ready for review, Close and Re-open it to get it automatically moved to "In Progress" cloumn**
+  * **Newly opened issue will be placed in "New Proposal" cloumn in the CFAR Project Board. When your issue is ready for review, Close and Re-open it to get it automatically moved to "In Progress" cloumn. From that point on, issues will be automactially tracked in the CFAR Project Board based on GitHub issue state**
 * As proposal cycles through the different possible phases, please update status label to accurately reflect the current progress
