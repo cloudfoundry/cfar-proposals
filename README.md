@@ -8,6 +8,7 @@ This is a repository for Cloud Foundry Application Runtime proposals. The purpos
   * in-review - Under discussion within the community
   * planned - Consensus reached across involved teams
   * in-progress - Implementation in progress
+  * complete - Implementation done
   * obsolete - Proposal abandoned
 * **Team label:** cli, capi, services api, bits-service, uaa, perm, garden, eirini, garden-windows, diego, persi, networking, haproxy, loggregator, infra, relint, postgres, mysql (to be added by proposal author at the time of issue creation)
 
